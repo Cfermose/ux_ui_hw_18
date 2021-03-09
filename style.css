@@ -1,0 +1,67 @@
+
+/*my ux skills section coded using CSS flex*/
+
+.flexContainer {
+    display: flex;
+}
+
+.uxresearch {
+width: 33%;
+padding:25px;
+}
+
+
+.usercentricdesign {
+width: 33%;
+padding: 25px;
+}
+
+.agile {
+width: 33%
+padding: 25%;
+}
+
+/*my work section constructed using CSS grid*/
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+    grid-template-areas:
+    'nonprofitimage nonprofitcontent'
+    'fedwebimage fedwebcontent'
+    'casestudyimage casestudycontent'
+
+}
+
+.nonprofitimage {
+    grid-area: nonprofitimage;
+}
+
+.nonprofitcontent {
+    grid-area: nonprofitcontent;
+}
+
+.fedwebimage {
+    grid-area: fedwebimage;
+}
+
+.fedwebcontent {
+    grid-area: fedwebcontent;
+}
+
+.casestudyimage {
+    grid-area: casestudyimage;
+}
+
+.casestudycontent {
+    grid-area: casestudycontent;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
