@@ -3,6 +3,7 @@
 
 .flexContainer {
     display: flex;
+    justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 3%;
@@ -10,26 +11,26 @@
 }
 
 .uxresearch {
-width: 33%;
+
 padding:25px;
 margin-left: 10%;
 }
 
 
 .usercentricdesign {
-width: 33%;
+
 padding: 25px;
 margin-left: 10%;
 }
 
 .agile {
-width: 33
-padding: 25%;
+
+padding: 25px;
 margin-left: 10%;
 }
 
 .agile p {
-width: 33%;
+
 }
 
 /*my work section constructed using CSS grid*/
@@ -82,7 +83,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 600) {
+@media only screen and (max-width: 600px) {
     
     .flexContainer {
         flex-direction: column;
