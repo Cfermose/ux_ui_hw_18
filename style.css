@@ -3,22 +3,34 @@
 
 .flexContainer {
     display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    
+    
 }
 
 .uxresearch {
 width: 33%;
 padding:25px;
+margin-left: 10%;
 }
 
 
 .usercentricdesign {
 width: 33%;
 padding: 25px;
+margin-left: 10%;
 }
 
 .agile {
-width: 33%
+width: 33
 padding: 25%;
+margin-left: 10%;
+}
+
+.agile p {
+width: 33%;
 }
 
 /*my work section constructed using CSS grid*/
@@ -27,6 +39,7 @@ padding: 25%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    margin-left: 10%;
 
     grid-template-areas:
     'nonprofitimage nonprofitcontent'
@@ -37,10 +50,13 @@ padding: 25%;
 
 .nonprofitimage {
     grid-area: nonprofitimage;
+    margin-top: 5%;
 }
 
 .nonprofitcontent {
     grid-area: nonprofitcontent;
+    margin-right: 10%;
+    margin-top: 3%;
 }
 
 .fedwebimage {
@@ -49,6 +65,7 @@ padding: 25%;
 
 .fedwebcontent {
     grid-area: fedwebcontent;
+    margin-right: 10%;
 }
 
 .casestudyimage {
@@ -57,6 +74,7 @@ padding: 25%;
 
 .casestudycontent {
     grid-area: casestudycontent;
+    margin-right: 10%;
 }
 
 
