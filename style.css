@@ -7,7 +7,6 @@
     margin-right: 10%;
     margin-top: 3%;
     
-    
 }
 
 .uxresearch {
@@ -83,3 +82,38 @@ h1 {
 }
 
 
+@media only screen and (max-width: 600) {
+    
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    .uxresearch {
+        width: 100%;
+
+    }
+
+    .usercentricdesign {
+        width: 100%;
+
+    }
+
+    .agile {
+        width: 100%;
+
+    }
+
+    .workGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px;
+    
+        grid-template-areas:
+        "nonprofitimage"
+        "nonprofitcontent"
+        "fedwebimage"
+        "fedwebcontent"
+        "casestudyimage" 
+        "casestudycontent"
+    
+    }
+}
